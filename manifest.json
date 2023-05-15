@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Web Accessify",
+    "version": "1.0.0",
+    "description": "Makes web accessible for everyone",
+
+    "background": {
+        "scripts": [
+            "popup.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Web Accessify",
+        "default_popup": "popup1.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
+
